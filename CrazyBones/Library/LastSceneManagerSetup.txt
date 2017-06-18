@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/CrazyBones.unity
+  isLoaded: 1
+  isActive: 1
