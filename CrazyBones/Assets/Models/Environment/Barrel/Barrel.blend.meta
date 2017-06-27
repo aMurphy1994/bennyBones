@@ -1,29 +1,16 @@
 fileFormatVersion: 2
-guid: 1b34954ab8a05b54a9a63010a4d6b3ef
-timeCreated: 1497875549
+guid: 713c92bf1e6b61749bd6c880d95223f7
+timeCreated: 1497960170
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: group1
-    100004: pCylinder1
-    100006: pPlane1
-    100008: pPlane2
     400000: //RootNode
-    400002: group1
-    400004: pCylinder1
-    400006: pPlane1
-    400008: pPlane2
-    2300000: pCylinder1
-    2300002: pPlane1
-    2300004: pPlane2
-    3300000: pCylinder1
-    3300002: pPlane1
-    3300004: pPlane2
-    4300000: pPlane2
-    4300002: pPlane1
-    4300004: pCylinder1
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Barrel
+    7400000: Default Take
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -87,7 +74,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
