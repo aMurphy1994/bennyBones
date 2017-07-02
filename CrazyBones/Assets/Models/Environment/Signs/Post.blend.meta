@@ -1,51 +1,36 @@
 fileFormatVersion: 2
-guid: ebeee6cf0ce387c4489ded7d38f51fb1
-timeCreated: 1498057255
+guid: 1d9fd58c83a00cf45b4b415c5808cc88
+timeCreated: 1499014591
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Head
-    100004: LeftArm
-    100006: LeftLeg
-    100008: RightArm
-    100010: RightLeg
-    100012: Torso
-    400000: //RootNode
-    400002: Head
-    400004: LeftArm
-    400006: LeftLeg
-    400008: RightArm
-    400010: RightLeg
-    400012: Torso
-    2300000: //RootNode
-    2300002: Head
-    2300004: LeftArm
-    2300006: LeftLeg
-    2300008: RightArm
-    2300010: RightLeg
-    2300012: Torso
-    3300000: //RootNode
-    3300002: Head
-    3300004: LeftArm
-    3300006: LeftLeg
-    3300008: RightArm
-    3300010: RightLeg
-    3300012: Torso
-    4300000: Cube
-    4300002: RightLeg
-    4300004: RightArm
-    4300006: LeftArm
-    4300008: LeftLeg
-    4300010: Torso
-    4300012: Head
-    6400000: Head
-    6400002: LeftArm
-    6400004: LeftLeg
-    6400006: RightArm
-    6400008: RightLeg
-    6400010: Torso
+    100000: Angled
+    100002: Beam
+    100004: MainPole
+    100006: //RootNode
+    100008: Sign
+    400000: Angled
+    400002: Beam
+    400004: MainPole
+    400006: //RootNode
+    400008: Sign
+    2300000: Angled
+    2300002: Beam
+    2300004: MainPole
+    2300006: Sign
+    3300000: Angled
+    3300002: Beam
+    3300004: MainPole
+    3300006: Sign
+    4300000: Sign
+    4300002: Beam
+    4300004: Angled
+    4300006: MainPole
+    6400000: Angled
+    6400002: Beam
+    6400004: MainPole
+    6400006: Sign
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -107,7 +92,7 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
