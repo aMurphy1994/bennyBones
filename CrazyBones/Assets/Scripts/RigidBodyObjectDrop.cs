@@ -19,6 +19,7 @@ public class RigidBodyObjectDrop : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        System.Console.WriteLine("Starting..");
 		rigidBody = gameObject.GetComponent<Rigidbody> ();
 		originalConstraints = rigidBody.constraints;
 
@@ -30,7 +31,7 @@ public class RigidBodyObjectDrop : MonoBehaviour {
 		objectLocalPos = gameObject.transform.localPosition;
 
 		// Obtain parent player object.
-		player = GameObject.Find ("GameObject");
+		player = GameObject.Find ("BennyBones");
 	}
 	
 	// Update is called once per frame
