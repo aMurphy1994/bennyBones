@@ -134,12 +134,75 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 71592a249dff76c4199f6ceea68c76e9, type: 2}
+    - target: {fileID: 400002, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7335697
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0155598605
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.67922306
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.007156849
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.101328
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.08209407
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -94.406
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.017014151
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 2.8539886
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.2119751
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
   m_IsPrefabParent: 0
 --- !u!4 &354563848 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
+  m_PrefabInternal: {fileID: 354563847}
+--- !u!1 &401159410 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
+  m_PrefabInternal: {fileID: 354563847}
+--- !u!114 &401159411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 401159410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a66ac54d04e77499742f6a38e7cb7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 2
+  runSpeed: 6
+  turnSmoothTime: 0.2
+  speedSmoothTime: 0.1
+--- !u!4 &401159412 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: c1eb229d3e9d39647b9dc86e47c4080e, type: 3}
   m_PrefabInternal: {fileID: 354563847}
 --- !u!1 &421407591
 GameObject:
@@ -242,7 +305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lockCursor: 1
   mouseSensitivity: 5
-  target: {fileID: 0}
+  target: {fileID: 401159412}
   dstFromTarget: 7
   pitchMinMax: {x: -50, y: 85}
   rotationSmoothTime: 0
